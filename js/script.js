@@ -249,5 +249,6 @@ buttonsContainer.addEventListener('click',handleViewSwitch)
 
 searchContainer.addEventListener('keydown', getCoordinates)
 findCity()
+controller()
 window.addEventListener('hashchange',controller)
 controller()
